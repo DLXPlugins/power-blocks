@@ -42,10 +42,10 @@ class Settings_Links {
 		$docs_url     = 'https://docs.dlxplugins.com/';
 		$site_url     = 'https://dlxplugins.com';
 		if ( current_user_can( 'manage_options' ) ) {
-			$options_link = sprintf( '<a href="%s">%s</a>', esc_url( $settings_url ), _x( 'Settings', 'Quotes options link', 'quotes-dlx' ) );
+			$options_link = sprintf( '<a href="%s">%s</a>', esc_url( $settings_url ), _x( 'Settings', 'Options link', 'power-blocks' ) );
 			array_unshift( $links, $options_link );
-			$docs_link = sprintf( '<a href="%s">%s</a>', esc_url( $docs_url ), _x( 'Docs', 'Plugin documentation', 'quotes-dlx' ) );
-			$site_link = sprintf( '<a href="%s">%s</a>', esc_url( $site_url ), _x( 'DLXPlugins', 'Plugin site', 'quotes-dlx' ) );
+			$docs_link = sprintf( '<a href="%s">%s</a>', esc_url( $docs_url ), _x( 'Docs', 'Plugin documentation', 'power-blocks' ) );
+			$site_link = sprintf( '<a href="%s">%s</a>', esc_url( $site_url ), _x( 'DLXPlugins', 'Plugin site', 'power-blocks' ) );
 			$links[]   = $docs_link;
 			$links[]   = $site_link;
 		}
