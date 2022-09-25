@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Power Block Standards">
+	<arg name="extensions" value="php" />
+	<arg name="colors" />
+	<arg value="s" /><!-- Show sniff codes in all reports -->
+
+	<rule ref="WordPress-Core">
+		<exclude name="WordPress.Files.FileName" />
+	</rule>
+
+	<rule ref="WordPress-Docs"></rule>
+
+	<config name="testVersion" value="6.0-" />
+	<file>.</file>
+
+	<exclude-pattern>/node_modules/</exclude-pattern>
+	<exclude-pattern>/vendor/</exclude-pattern>
+	<exclude-pattern>/lib/</exclude-pattern>
+</ruleset>

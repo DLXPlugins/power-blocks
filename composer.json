@@ -1,0 +1,18 @@
+{
+	"name": "dlxplugins/powerblocks",
+	"description": "This is a test plugin demonstrating PSR-4 structure",
+	"authors": [
+		{
+			"name": "Ronald Huereca",
+			"email": "ronald@mediaron.com"
+		}
+	],
+	"config": {
+		"vendor-dir": "lib"
+	},
+	"autoload": {
+		"psr-4": {
+			"DLXPlugins\\PowerBlocks\\": "php/"
+		}
+	}
+}
